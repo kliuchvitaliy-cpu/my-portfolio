@@ -487,3 +487,17 @@ p {
         justify-content: center;
     }
 }
+.profile-photo {
+    width: 250px;      /* Фіксована ширина */
+    height: 250px;     /* Фіксована висота */
+    object-fit: cover; /* Обрізає фото по квадрату без спотворень */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
