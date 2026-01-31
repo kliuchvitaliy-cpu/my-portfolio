@@ -419,3 +419,71 @@ p {
         font-size: 1rem;
     }
 }
+.lang-switch {
+    font-weight: 600;
+    color: var(--accent-color) !important; /* Наш теракотовий колір */
+    border: 1px solid var(--accent-color);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.lang-switch:hover {
+    background-color: var(--accent-color);
+    color: white !important;
+}
+/* === Стилі для блоку з фотографією === */
+
+/* Контейнер, який ставить текст і фото в один ряд */
+.hero-content {
+    display: flex;
+    align-items: center; /* Вирівнювання по центру по вертикалі */
+    justify-content: space-between; /* Максимальна відстань між ними */
+    gap: 4rem; /* Проміжок між текстом і фото */
+    padding: 2rem 0;
+}
+
+/* Блок з текстом займає більше місця */
+.hero-text-block {
+    flex: 1.5;
+}
+
+.hero-description {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+/* Стилізація самої фотографії */
+.profile-photo {
+    width: 280px;         /* Фіксований розмір */
+    height: 280px;        /* Робимо квадратним */
+    object-fit: cover;    /* Обрізає фото, щоб не спотворювати пропорції */
+    border-radius: 20px;  /* Заокруглені кути (в стилі твоїх карток) */
+    /* Якщо хочеш кругле фото, заміни 20px на 50% */
+    
+    /* Додаємо м'яку тінь для об'єму в стилі Claude */
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    border: 2px solid #FFFFFF; /* Тонка біла рамка */
+}
+
+
+/* === АДАПТИВНІСТЬ ДЛЯ МОБІЛЬНИХ (ОБОВ'ЯЗКОВО) === */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column-reverse; /* Фото зверху, текст знизу */
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .profile-photo {
+        width: 200px; /* На телефоні фото трохи менше */
+        height: 200px;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
+    }
+}
