@@ -15,11 +15,10 @@
         <div class="nav-container">
             <a href="#home" class="nav-logo">Portfolio</a>
             <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
+                <li><a href="#background">Background</a></li>
                 <li><a href="#research">Research</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="czech.html"class="lang-switch">čeština</a></li>
+                <li><a href="czech.html" class="lang-switch">čeština</a></li>
             </ul>
         </div>
     </nav>
@@ -28,41 +27,59 @@
         <section id="home" class="hero">
             <div class="hero-content">
                 <div class="hero-text-block">
-                <h1 class="hero-name">Vitalii Kliuchko</h1>
-                <p class="hero-title">Economics Student - Public Policy & AI</p>
-                <p class="hero-description">Researching economic policy, data analysis, and quantitative methods</p>
-            </div>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Contact Me</a>
-            </div>
-            <div class="hero-photo-block">
-                <img src="my-photo.jpg" alt="Vitalii Kliuchko" class="profile-photo">
-            </div>
-            </div>
-        </section>
-
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section-title">About</h2>
-                <div class="about-content">
-                    <p class="about-text">
-                        I am an economics student with a passion for understanding economic systems, policy analysis, 
-                        and quantitative research. My academic interests lie in macroeconomics, econometrics, and 
-                        development economics. I am committed to applying rigorous analytical methods to address 
-                        real-world economic challenges.
-                    </p>
+                    <h1 class="hero-name">Vitalii Kliuchko</h1>
+                    <p class="hero-role">Economic Policy & Data Analyst</p>
+                    <div class="about-card">
+                        <p class="about-text">
+                            I focus on understanding complex economic systems through the lens of policy analysis and quantitative research. 
+                            My expertise lies in macroeconomics and econometrics, where I apply rigorous analytical methods to address 
+                            real-world economic challenges and evaluate public policy impact.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="hero-photo-block">
+                    <img src="my-photo.jpg" alt="Vitalii Kliuchko" class="profile-photo">
                 </div>
             </div>
         </section>
 
-        <section id="education" class="section">
+        <section id="background" class="section">
             <div class="container">
-                <h2 class="section-title">Education</h2>
-                <div class="education-item">
-                    <h3 class="education-degree"> Public economics and Administration student</h3>
-                    <p class="education-institution">Masaryk University</p>
-                    <p class="education-period">2023 - 2026</p>
-                    <p class="education-details">Relevant coursework: Microeconomics, Macroeconomics, Public Economics, Statistics, Public Finance</p>
+                <h2 class="section-title">Background</h2>
+                <div class="background-content">
+                    <div class="background-column">
+                        <h3 class="background-column-title">Education</h3>
+                        <div class="education-item">
+                            <h4 class="education-degree">Public economics and Administration</h4>
+                            <p class="education-degree-type">Bachelor degree</p>
+                            <p class="education-institution">Masaryk University</p>
+                            <p class="education-period">2023 - 2026</p>
+                        </div>
+                        <div class="skills-category">
+                            <h4 class="skills-category-title">Research Areas</h4>
+                            <ul class="skills-list">
+                                <li>Macroeconomics</li>
+                                <li>Public Economics</li>
+                                <li>Development Economics</li>
+                                <li>Economic Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="background-column">
+                        <h3 class="background-column-title">Skills</h3>
+                        <div class="skills-content">
+                            <div class="skills-category">
+                                <h3>Software & Tools</h3>
+                                <ul class="skills-list">
+                                    <li><strong>Power BI:</strong> Interactive dashboards, Data modeling (DAX)</li>
+                                    <li><strong>SQL:</strong> Complex queries, Joins, Data aggregation</li>
+                                    <li><strong>Python:</strong> Data cleaning (Pandas), Visualization (Matplotlib), Basic ML</li>
+                                    <li><strong>Excel:</strong> Financial modeling, Regression analysis, Pivot tables</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -70,66 +87,43 @@
         <section id="research" class="section">
             <div class="container">
                 <h2 class="section-title">Research & Projects</h2>
-                <div class="research-grid">
-                    <div class="research-item">
-                        <h3 class="research-title">Research Project Title</h3>
-                        <p class="research-description">
-                            Brief description of your research project, methodology, and key findings. 
-                            Focus on the economic question addressed and analytical approach.
+                <div class="bento-grid">
+                    <article class="bento-card bento-card--primary">
+                        <div class="bento-card__header">
+                            <h3 class="bento-card__title">Quality of life of seniors economic evaluation</h3>
+                            <div class="bento-card__badges">
+                                <span class="badge badge--thesis">Bachelor's Thesis</span>
+                                <span class="badge badge--progress">In Progress</span>
+                            </div>
+                        </div>
+                        <p class="bento-card__description">
+                            Economic analysis of the effectiveness of the NAMASTE Care program for elderly people with cognitive impairments using QUALID and QUALIDEM questionnaires.
                         </p>
-                        <span class="research-tag">Macroeconomics</span>
-                    </div>
-                    <div class="research-item">
-                        <h3 class="research-title">Data Analysis Project</h3>
-                        <p class="research-description">
-                            Description of a data analysis project, including the dataset used, 
-                            statistical methods applied, and insights derived from the analysis.
+                        <a href="thesis-abstract.pdf" class="btn btn-more">More Info</a>
+                    </article>
+                    
+                    <article class="bento-card">
+                        <div class="bento-card__image">
+                            <img src="terminal-master-dashboard.jpg" alt="Financial Intelligence Terminal Dashboard" class="bento-card__thumbnail">
+                        </div>
+                        <div class="bento-card__header">
+                            <h3 class="bento-card__title">Financial Intelligence Terminal</h3>
+                        </div>
+                        <p class="bento-card__description">
+                            Automated pipelines delivering 20% ROI through comprehensive P&L analysis of 16 competitors. Advanced financial intelligence system with real-time data processing.
                         </p>
-                        <span class="research-tag">Econometrics</span>
-                    </div>
-                    <div class="research-item">
-                        <h3 class="research-title">Policy Analysis</h3>
-                        <p class="research-description">
-                            Analysis of a specific economic policy, evaluating its theoretical foundations, 
-                            empirical evidence, and potential impacts on economic outcomes.
+                        <a href="terminal.html" class="btn btn-more">View Results</a>
+                    </article>
+                    
+                    <article class="bento-card">
+                        <div class="bento-card__header">
+                            <h3 class="bento-card__title">EU Fiscal Simulation</h3>
+                        </div>
+                        <p class="bento-card__description">
+                            Analysis of Czechia's budget position and comprehensive 7-country enlargement modeling. Advanced fiscal policy simulation framework.
                         </p>
-                        <span class="research-tag">Policy</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="section">
-            <div class="container">
-                <h2 class="section-title">Skills</h2>
-                <div class="skills-content">
-                    <div class="skills-category">
-                        <h3 class="skills-category-title">Quantitative Methods</h3>
-                        <ul class="skills-list">
-                            <li>Econometrics</li>
-                            <li>Statistical Analysis</li>
-                            <li>Time Series Analysis</li>
-                            <li>Regression Analysis</li>
-                        </ul>
-                    </div>
-                    <div class="skills-category">
-                        <h3 class="skills-category-title">Software & Tools</h3>
-                        <ul class="skills-list">
-                            <li>R / RStudio</li>
-                            <li>Stata</li>
-                            <li>Python</li>
-                            <li>Excel</li>
-                        </ul>
-                    </div>
-                    <div class="skills-category">
-                        <h3 class="skills-category-title">Research Areas</h3>
-                        <ul class="skills-list">
-                            <li>Macroeconomics</li>
-                            <li>Microeconomics</li>
-                            <li>Development Economics</li>
-                            <li>Economic Policy</li>
-                        </ul>
-                    </div>
+                        <a href="eu-simulation.html" class="btn btn-more">View Analysis</a>
+                    </article>
                 </div>
             </div>
         </section>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,11 +15,10 @@
         <div class="nav-container">
             <a href="#home" class="nav-logo">Portfolio</a>
             <ul class="nav-menu">
-                <li><a href="#about">O mně</a></li>
-                <li><a href="#education">Vzdělání</a></li>
+                <li><a href="#background">Pozadí</a></li>
                 <li><a href="#research">Výzkum</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-                <li><a href="index.html"class="lang-switch">English</a></li>
+                <li><a href="#contact">Kontakty</a></li>
+                <li><a href="index.html" class="lang-switch">English</a></li>
             </ul>
         </div>
     </nav>
@@ -28,105 +27,103 @@
         <section id="home" class="hero">
             <div class="hero-content">
                 <div class="hero-text-block">
-                <h1 class="hero-name">Vitalii Kliuchko</h1>
-                <p class="hero-title">Student ekonomie – Veřejná politika & AI</p>
-                <p class="hero-description">Zabývám se výzkumem ekonomické politiky, analýzou dat a kvantitativními metodami</p>
-            </div>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Kontaktujte mě</a>
-            </div>
-            <div class="hero-photo-block">
-                <img src="my-photo.jpg" alt="Vitalii Kliuchko" class="profile-photo">
-            </div>
-        </section>
-
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section-title">O mně</h2>
-                <div class="about-content">
-                    <p class="about-text">
-                        Jsem student ekonomie s vášní pro pochopení ekonomických systémů, analýzu politiky a kvantitativní výzkum.
-                        Mezi mé akademické zájmy patří makroekonomie, ekonometrie a rozvojová ekonomie.
-                        Zavazuji se aplikovat důkladné analytické metody na řešení reálných ekonomických výzev.
-                    </p>
+                    <h1 class="hero-name">Vitalii Kliuchko</h1>
+                    <p class="hero-role">Analytik hospodářské politiky a dat</p>
+                    <div class="about-card">
+                        <p class="about-text">
+                            Zaměřuji se na pochopení složitých ekonomických systémů prostřednictvím analýzy politiky a kvantitativního výzkumu. 
+                            Moje odbornost spočívá v makroekonomii a ekonometrii, kde aplikuji důkladné analytické metody na řešení 
+                            reálných ekonomických výzev a hodnocení dopadu veřejné politiky.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="hero-photo-block">
+                    <img src="my-photo.jpg" alt="Vitalii Kliuchko" class="profile-photo">
                 </div>
             </div>
         </section>
 
-        <section id="education" class="section">
+        <section id="background" class="section">
             <div class="container">
-                <h2 class="section-title">Vzdělání</h2>
-                <div class="education-item">
-                    <h3 class="education-degree"> Student veřejné ekonomie a správy</h3>
-                    <p class="education-institution">Masarykova univerzita</p>
-                    <p class="education-period">2023 - 2026</p>
-                    <p class="education-details">Relevantní kurzy: Mikroekonomie, Makroekonomie, Veřejná ekonomie, Statistika, Veřejné finance</p>
+                <h2 class="section-title">Pozadí</h2>
+                <div class="background-content">
+                    <div class="background-column">
+                        <h3 class="background-column-title">Vzdělání</h3>
+                        <div class="education-item">
+                            <h4 class="education-degree">Veřejná ekonomika a správa</h4>
+                            <p class="education-degree-type">Bakalářský titul</p>
+                            <p class="education-institution">Masarykova univerzita</p>
+                            <p class="education-period">2023 - 2026</p>
+                        </div>
+                        <div class="skills-category">
+                            <h4 class="skills-category-title">Výzkumné oblasti</h4>
+                            <ul class="skills-list">
+                                <li>Makroekonomie</li>
+                                <li>Veřejná ekonomie</li>
+                                <li>Rozvojová ekonomie</li>
+                                <li>Ekonomická politika</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="background-column">
+                        <h3 class="background-column-title">Dovednosti</h3>
+                        <div class="skills-content">
+                            <div class="skills-category">
+                                <h3>Software & Nástroje</h3>
+                                <ul class="skills-list">
+                                    <li><strong>Power BI:</strong> Interaktivní dashboardy, Modelování dat (DAX)</li>
+                                    <li><strong>SQL:</strong> Složité dotazy, Spojení, Agregace dat</li>
+                                    <li><strong>Python:</strong> Čištění dat (Pandas), Vizualizace (Matplotlib), Základní ML</li>
+                                    <li><strong>Excel:</strong> Finanční modelování, Regresní analýza, Kontingenční tabulky</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="research" class="section">
             <div class="container">
-                <h2 class="section-title">Výzkum a projekty</h2>
-                <div class="research-grid">
-                    <div class="research-item">
-                        <h3 class="research-title">Název výzkumného projektu</h3>
-                        <p class="research-description">
-                            Stručný popis vašeho výzkumného projektu, použitá metodologie a klíčové závěry.
-                            Zaměření na ekonomickou otázku a analytický přístup.
+                <h2 class="section-title">Výzkum & Projekty</h2>
+                <div class="bento-grid">
+                    <article class="bento-card bento-card--primary">
+                        <div class="bento-card__header">
+                            <h3 class="bento-card__title">Kvalita života seniorů: Ekonomické hodnocení</h3>
+                            <div class="bento-card__badges">
+                                <span class="badge badge--thesis">Bakalářská práce</span>
+                                <span class="badge badge--progress">Práce v průběhu</span>
+                            </div>
+                        </div>
+                        <p class="bento-card__description">
+                            Ekonomická analýza efektivity programu NAMASTE Care pro seniory s kognitivními poruchami pomocí dotazníků QUALID a QUALIDEM.
                         </p>
-                        <span class="research-tag">Makroekonomie</span>
-                    </div>
-                    <div class="research-item">
-                        <h3 class="research-title">Projekt analýzy dat</h3>
-                        <p class="research-description">
-                            Popis projektu analýzy dat včetně použitého datasetu, aplikovaných statistických metod a poznatků získaných z analýzy.
+                        <a href="thesis-abstract.pdf" class="btn btn-more">Více informací</a>
+                    </article>
+                    
+                    <article class="bento-card">
+                        <div class="bento-card__image">
+                            <img src="terminal-master-dashboard.jpg" alt="Dashboard Finančního inteligentního terminálu" class="bento-card__thumbnail">
+                        </div>
+                        <div class="bento-card__header">
+                            <h3 class="bento-card__title">Finanční inteligentní terminál</h3>
+                        </div>
+                        <p class="bento-card__description">
+                            Automatizované procesy poskytující 20% ROI prostřednictvím komplexní analýzy P&L 16 konkurentů. Pokročilý systém finanční inteligence s zpracováním dat v reálném čase.
                         </p>
-                        <span class="research-tag">Ekonometrie</span>
-                    </div>
-                    <div class="research-item">
-                        <h3 class="research-title">Analýza politiky</h3>
-                        <p class="research-description">
-                            Analýza konkrétní hospodářské politiky, zhodnocení jejích teoretických základů,
-                            empirických důkazů a potenciálního dopadu na ekonomické výsledky.
+                        <a href="terminal-cs.html" class="btn btn-more">Zobrazit výsledky</a>
+                    </article>
+                    
+                    <article class="bento-card">
+                        <div class="bento-card__header">
+                            <h3 class="bento-card__title">Fiskální simulace EU</h3>
+                        </div>
+                        <p class="bento-card__description">
+                            Analýza rozpočtové pozice Česka a komplexní modelování rozšíření o 7 zemí. Pokročilý rámec pro simulaci fiskální politiky.
                         </p>
-                        <span class="research-tag">Politika</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="section">
-            <div class="container">
-                <h2 class="section-title">Dovednosti</h2>
-                <div class="skills-content">
-                    <div class="skills-category">
-                        <h3 class="skills-category-title">Kvantitativní metody</h3>
-                        <ul class="skills-list">
-                            <li>Ekonometrie</li>
-                            <li>Statistická analýza</li>
-                            <li>Analýza časových řad</li>
-                            <li>Regresní analýza</li>
-                        </ul>
-                    </div>
-                    <div class="skills-category">
-                        <h3 class="skills-category-title">Software & Nástroje</h3>
-                        <ul class="skills-list">
-                            <li>R / RStudio</li>
-                            <li>Stata</li>
-                            <li>Python</li>
-                            <li>Excel</li>
-                        </ul>
-                    </div>
-                    <div class="skills-category">
-                        <h3 class="skills-category-title">Výzkumné oblasti</h3>
-                        <ul class="skills-list">
-                            <li>Makroekonomie</li>
-                            <li>Mikroekonomie</li>
-                            <li>Rozvojová ekonomie</li>
-                            <li>Ekonomická politika</li>
-                        </ul>
-                    </div>
+                        <a href="eu-simulation-cs.html" class="btn btn-more">Zobrazit analýzu</a>
+                    </article>
                 </div>
             </div>
         </section>
@@ -135,11 +132,10 @@
             <div class="container">
                 <h2 class="section-title">Kontakt</h2>
                 <div class="contact-content">
-                    <p class="contact-text">Uvítám dotazy ohledně možností výzkumu, spolupráce nebo odborných diskuzí.</p>
+                    <p class="contact-text">Uvítám nabídky ohledně možností výzkumu, spolupráce nebo odborných diskuzí.</p>
                     <div class="contact-links">
                         <a href="mailto:kliuchvitaliy@gmail.com" class="contact-link">E-mail: kliuchvitaliy@gmail.com</a>
                         <a href="#" class="contact-link">LinkedIn: www.linkedin.com/in/vitalii-kliuchko-313495324</a>
-                        
                     </div>
                 </div>
             </div>
