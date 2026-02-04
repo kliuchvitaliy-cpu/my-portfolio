@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="terminal-cs-page">
     <nav class="navbar">
         <div class="nav-container">
             <a href="czech.html" class="nav-logo">Portfolio</a>
@@ -28,8 +28,10 @@
             <div class="container">
                 <a href="czech.html#research" class="btn-back">← Zpět na Portfolio</a>
                 <h1 class="case-study-title">Obchodní simulační hra s nejistotou a informační mezerou</h1>
-                <div class="case-study-hero-image">
-                    <img src="terminal-master-dashboard.jpg" alt="Hlavní dashboard Financial Intelligence Terminal" class="hero-image">
+                <div class="case-study-summary context-summary">
+                    <p class="summary-text">
+                        Nástroj pomáhající činit lepší investiční rozhodnutí v rámci obchodní simulační hry (Manahra) s interní burzou z předmětu Management.
+                    </p>
                 </div>
             </div>
         </section>
@@ -41,22 +43,22 @@
                         <div class="case-study-section">
                             <h2 class="case-study-heading">Problém</h2>
                             <p class="case-study-text">
-                                Organizace čelila významným výzvám souvisejícím s fragmentací dat napříč více zdroji. 
-                                Finanční data, analýza konkurentů a výkonnostní metriky byly rozptýleny napříč různými 
-                                systémy a formáty, což ztěžovalo získání komplexních poznatků. Tato fragmentace vedla 
-                                k časově náročnému ručnímu sběru dat, nekonzistentnímu reportování a zpožděným rozhodovacím 
-                                procesům, které ovlivnily strategické plánování a konkurenční pozicování.
+                                Fragmentace dat: Finanční údaje a obchodní data o konkurenčních firmách byly rozptýleny v různých vložkách, což znemožňovalo ucelený pohled.
+                                <br>
+                                Neefektivita: Ruční sběr dat byl extrémně časově náročný a vedl k manuálním chybám při zpracování.
+                                <br>
+                                Informační mezera: Zpožděná analýza omezovala schopnost adekvátně reagovat na dynamické změny trhu.
                             </p>
                         </div>
                         <div class="case-study-section">
                             <h2 class="case-study-heading">Řešení</h2>
                             <p class="case-study-text">
-                                Vyvinul jsem automatizovaný 5-listový pipeline, který konsoliduje a zpracovává finanční 
-                                inteligenci z více zdrojů. Systém integruje sběr dat, transformaci a vizualizaci do bezproblémového 
-                                pracovního procesu. Každý list v pipeline slouží specifickému účelu: příjem dat, čištění a transformace, 
-                                analýza konkurentů, výpočty P&L a finální vizualizace dashboardu. Tento automatizovaný přístup 
-                                eliminoval ruční zadávání dat, zkrátil čas zpracování o 80% a umožnil monitorování finančního 
-                                výkonu 16 konkurentů v reálném čase s komplexní analýzou zisků a ztrát.
+                                Automatisovaná pipeline: Vyvinul jsem 5fázový systém pro konsolidaci dat od sběru až po finální P&L vizualizaci.
+                                <br>
+                                Efektivita procesu: Eliminace ručního zadávání dat zkrátila čas zpracování a možných chyb.
+                                <br>
+                                Real-time monitoring: Systém umožnil sledování 16 konkurenčních firem v reálném čase s komplexní analýzou zisků a ztrát.
+                                
                             </p>
                         </div>
                     </div>
@@ -84,6 +86,12 @@
         <section class="gallery-section section">
             <div class="container">
                 <h2 class="section-title">Galerie</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        Tato vizualizace demonstruje strategické alokování kapitálu. Agregovaný ukazatel P&L je prezentován jako klíčový KPI pro hodnocení výkonnosti celého portfolia v reálném čase.
+                    </p>
+                    <a href="https://docs.google.com/spreadsheets/d/10yK6_yTPtCycDCyeyBeaoPZ4iDL-KD1h4Dl9loM9JcY/edit?gid=0#gid=0" class="btn btn-more" target="_blank" rel="noopener noreferrer">Zobrazit Spreadsheet</a>
+                </div>
                 <div class="gallery-grid">
                     <div class="gallery-item">
                         <img src="P&L.png" alt="Analýza zisků a ztrát" class="gallery-image">

@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="terminal-page">
     <nav class="navbar">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">Portfolio</a>
@@ -27,9 +27,11 @@
         <section class="case-study-hero">
             <div class="container">
                 <a href="index.html#research" class="btn-back">← Back to Portfolio</a>
-                <h1 class="case-study-title">Strategic BI Case Study: Financial Intelligence Terminal</h1>
-                <div class="case-study-hero-image">
-                    <img src="terminal-master-dashboard.jpg" alt="Financial Intelligence Terminal Master Dashboard" class="hero-image">
+                <h1 class="case-study-title">Business Simulation Game with Uncertainty and Information Gap</h1>
+                <div class="case-study-summary context-summary">
+                    <p class="summary-text">
+                        A tool to help make better investment decisions in a business simulation game (Manahra) with an internal stock exchange within the Management class course.
+                    </p>
                 </div>
             </div>
         </section>
@@ -41,22 +43,23 @@
                         <div class="case-study-section">
                             <h2 class="case-study-heading">Problem</h2>
                             <p class="case-study-text">
-                                The organization faced significant challenges with data fragmentation across multiple sources. 
-                                Financial data, competitor analysis, and performance metrics were scattered across different 
-                                systems and formats, making it difficult to gain comprehensive insights. This fragmentation 
-                                led to time-consuming manual data collection, inconsistent reporting, and delayed decision-making 
-                                processes that impacted strategic planning and competitive positioning.
+                                Data fragmentation: Financial data and market data on competing companies were scattered across various tabs, making it impossible to get a comprehensive overview.
+                                <br>
+                                Inefficiency: Manual data collection was extremely time-consuming and led to manual errors in processing.
+                                <br>
+                                Information gap: Delayed analysis limited the ability to adequately respond to dynamic market changes.
                             </p>
                         </div>
                         <div class="case-study-section">
                             <h2 class="case-study-heading">Solution</h2>
                             <p class="case-study-text">
-                                I developed an automated 5-sheet pipeline that consolidates and processes financial intelligence 
-                                from multiple sources. The system integrates data collection, transformation, and visualization 
-                                into a seamless workflow. Each sheet in the pipeline serves a specific purpose: data ingestion, 
-                                cleaning and transformation, competitor analysis, P&L calculations, and final dashboard visualization. 
-                                This automated approach eliminated manual data entry, reduced processing time by 80%, and enabled 
-                                real-time monitoring of 16 competitors' financial performance with comprehensive profit and loss analysis.
+                                Automated pipeline: I built a 5-step system that consolidates data from collection to final P&L visualization.
+                                <br>
+                                Process efficiency: Eliminating manual data entry reduced processing time by 80%.
+                                <br>
+                                Real-time monitoring: The system enabled tracking 16 competitors in real time with comprehensive profit and loss analysis.
+                                <br>
+                                AI implementation: I used prompt engineering to clean unstructured data and categorize market signals.
                             </p>
                         </div>
                     </div>
@@ -73,7 +76,7 @@
                             </div>
                             <div class="quick-facts__item">
                                 <span class="quick-facts__label">Tools</span>
-                                <span class="quick-facts__value">Google Sheets, Advanced Formulas, BI Visualization</span>
+                                <span class="quick-facts__value">Google Sheets, Advanced Formulas, Prompt Engineering</span>
                             </div>
                         </div>
                     </div>
@@ -84,6 +87,14 @@
         <section class="gallery-section section">
             <div class="container">
                 <h2 class="section-title">Gallery</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        This visualization demonstrates the strategic allocation of capital. 
+                        <br>
+                        The aggregated P&L indicator is presented as a key KPI for assessing the performance of the entire portfolio in real time.
+                    </p>
+                    <a href="https://docs.google.com/spreadsheets/d/10yK6_yTPtCycDCyeyBeaoPZ4iDL-KD1h4Dl9loM9JcY/edit?gid=0#gid=0" class="btn btn-more" target="_blank" rel="noopener noreferrer">View Spreadsheet</a>
+                </div>
                 <div class="gallery-grid">
                     <div class="gallery-item">
                         <img src="P&L.png" alt="Profit and Loss Analysis" class="gallery-image">

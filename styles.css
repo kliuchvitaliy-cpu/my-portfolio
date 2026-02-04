@@ -218,6 +218,10 @@ p {
     padding: var(--section-padding);
 }
 
+.pdf-cta-section {
+    padding-top: 40px;
+}
+
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -250,6 +254,14 @@ p {
 .about-text {
     font-size: 1.15rem;
     line-height: 1.9;
+}
+
+.about-content .btn-more {
+    margin-top: 1.5rem;
+}
+
+.about-content .btn-primary {
+    margin-bottom: 1.5rem;
 }
 
 /* Background Section */
@@ -685,10 +697,36 @@ p {
     line-height: 1.2;
 }
 
+.terminal-cs-page .case-study-title {
+    margin-bottom: 1rem;
+}
+
+.terminal-cs-page .case-study-content.section {
+    padding-top: 40px;
+}
+
 .case-study-summary {
     max-width: 900px;
     margin: 0 auto 3rem;
     text-align: center;
+}
+
+.terminal-page .case-study-summary.context-summary,
+.terminal-cs-page .case-study-summary.context-summary {
+    margin-top: 50px;
+}
+
+.terminal-page .case-study-hero,
+.terminal-cs-page .case-study-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 140px;
+}
+
+.terminal-page .context-summary .summary-text,
+.terminal-cs-page .context-summary .summary-text {
+    display: block;
 }
 
 .summary-text {
